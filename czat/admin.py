@@ -1,3 +1,5 @@
 from django.contrib import admin
+from czat import models
 
-# Register your models here.
+# rejestrujemy model Wiadomosc w panelu administracyjnym
+admin.site.register(models.Message)
